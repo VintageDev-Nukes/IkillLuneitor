@@ -1,0 +1,53 @@
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe.config
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\bin\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\bin\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\MainWindow.baml
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\MainWindow.g.vb
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\Application.g.vb
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF_MarkupCompile.cache
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF.g.resources
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher_WPF.Resources.resources
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF.vbproj.GenerateResource.Cache
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\AppData\Local\Temporary Projects\GameLauncher WPF\obj\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe.config
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\MainWindow.baml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\MainWindow.g.vb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\Application.g.vb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF_MarkupCompile.cache
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.g.resources
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher_WPF.Resources.resources
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.vbproj.GenerateResource.Cache
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.vbprojResolveAssemblyReference.cache
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe.config
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\Ionic.Zip.dll
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\Ookii.Dialogs.Wpf.dll
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\MainWindow.baml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\SplashText.baml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\WebBrowserOverlay.baml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\Application.baml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\MainWindow.g.vb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\SplashText.g.vb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\WebBrowserOverlay.g.vb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\Application.g.vb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF_MarkupCompile.cache
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.g.resources
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher_WPF.Resources.resources
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.vbproj.GenerateResource.Cache
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\Dropbox2\Dropbox\GameLauncher WPF\GameLauncher WPF\obj\Debug\GameLauncher WPF.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,3201 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 21.21.13.7653]
+    Renderer: NVIDIA GeForce GT 610
+    Vendor:   NVIDIA
+    VRAM:     979 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\ANTIGUO DESARROLLO\DESARROLLO UNITY\Ikilluneitor\Game Build\Game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3286x1080 at 0,0
+The file 'D:/ANTIGUO DESARROLLO/DESARROLLO UNITY/Ikilluneitor/Game Build/Game_Data/mainData' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 1172244 > 1172240]
+ 
+(Filename:  Line: 269)
+
+The file 'D:/ANTIGUO DESARROLLO/DESARROLLO UNITY/Ikilluneitor/Game Build/Game_Data/mainData' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 1172244 > 1172240]
+ 
+(Filename:  Line: 276)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainGUI.UnderWaterEffects (UnityEngine.GameObject player, Single waterLevel) [0x00000] in <filename unknown>:0 
+  at MainGUI.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

@@ -1,0 +1,1026 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Title="MainWindow"
+        Width="823"
+        Height="627"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Foreground="#00000000"
+        ResizeMode="NoResize"
+        WindowStyle="None">
+
+    <Window.Resources>
+
+        <Style TargetType="{x:Type ProgressBar}">
+            <Setter Property="Width" Value="100" />
+            <Setter Property="Height" Value="100" />
+            <Setter Property="Margin" Value="10,0,10,0" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ProgressBar}">
+
+                        <Border x:Name="PART_Track"
+                                Width="{TemplateBinding Width}"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <Rectangle x:Name="PART_Indicator"
+                                       Height="{TemplateBinding Height}"
+                                       HorizontalAlignment="Left"
+                                       Fill="{TemplateBinding Foreground}" />
+                        </Border>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Opacity="0" Color="Black" />
+        </Grid.Background>
+        <Image x:Name="Fondo"
+               Width="823"
+               Height="627"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top" />
+        <ComboBox x:Name="cmbProfiles"
+                  Width="185"
+                  Height="20"
+                  Margin="110,472,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  VerticalContentAlignment="Center"
+                  Padding="4,0">
+            <ComboBox.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0" Color="White" />
+                    <GradientStop Offset="0.5" Color="Gray" />
+                    <GradientStop Offset="1" Color="White" />
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label Width="40"
+               Height="20"
+               Margin="65,472,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               VerticalContentAlignment="Center"
+               Content="Perfil:"
+               Padding="0,-3,5,5" />
+        <Button Width="100"
+                Height="25"
+                Margin="80,497,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Button_Click_5"
+                Content="Crear perfil">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0" Color="White" />
+                    <GradientStop Offset="0.5" Color="Gray" />
+                    <GradientStop Offset="1" Color="White" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Width="100"
+                Height="25"
+                Margin="188,497,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Button_Click_4"
+                Content="Editar perfil">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0" Color="White" />
+                    <GradientStop Offset="0.5" Color="Gray" />
+                    <GradientStop Offset="1" Color="White" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TabControl x:Name="tabCSettings"
+                    Height="400"
+                    Margin="39,54,51,173"
+                    Background="#00F9F9F9"
+                    BorderBrush="#00DCDCDC">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TabItem}">
+                                <Border x:Name="Border"
+                                        Margin="2,0"
+                                        BorderBrush="Gainsboro"
+                                        BorderThickness="1,1,1,0"
+                                        CornerRadius="4,4,0,0">
+                                    <ContentPresenter x:Name="ContentSite"
+                                                      Margin="10,2"
+                                                      HorizontalAlignment="Center"
+                                                      VerticalAlignment="Center"
+                                                      ContentSource="Header" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="LightSkyBlue" />
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Border" Property="Background" Value="GhostWhite" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+            <TabItem x:Name="newFeatures" Header="Nuevas características">
+                <Canvas x:Name="LayoutRoot" Background="Transparent">
+                    <Border Name="_webBrowserPlacementTarget"
+                            Canvas.Left="10"
+                            Canvas.Top="10"
+                            Width="703"
+                            Height="347"
+                            BorderBrush="Blue"
+                            BorderThickness="2"
+                            DockPanel.Dock="Top" />
+                    <!--
+                        <StackPanel Panel.ZIndex="2" x:Name="fadeLoadingDocument" HorizontalAlignment="Left" Height="347" VerticalAlignment="Top" Width="703" Background="#4C000000" Canvas.Left="10" Canvas.Top="10"/>
+                        <Image Panel.ZIndex="3" x:Name="imgWheel" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="32" Canvas.Left="345" Canvas.Top="167"/>
+                    -->
+                </Canvas>
+            </TabItem>
+            <TabItem x:Name="itemProEditor" Header="Editor de perfiles">
+                <DataGrid x:Name="dtProfiles"
+                          Width="725"
+                          Height="360"
+                          Margin="0,10,-2,-23"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          HorizontalScrollBarVisibility="Disabled"
+                          x:FieldModifier="Public" />
+            </TabItem>
+            <TabItem x:Name="itemOptions" Header="Opciones de juego">
+                <Grid x:Name="gameOptions"
+                      Width="719"
+                      Height="373"
+                      Margin="0,0,0,0"
+                      HorizontalAlignment="Left"
+                      VerticalAlignment="Top">
+                    <Border Margin="122,10,457,343"
+                            Background="Gray"
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            CornerRadius="5" />
+
+                    <Label Margin="16,10,602,343"
+                           Content="Nombre del perfil:"
+                           Padding="0" />
+                    <TextBox x:Name="Profile_Name"
+                             Margin="122,10,457,343"
+                             Background="{x:Null}"
+                             BorderBrush="{x:Null}"
+                             Padding="0"
+                             TextWrapping="Wrap"
+                             x:FieldModifier="Public" />
+
+                    <TabControl x:Name="tabSettings"
+                                Width="699"
+                                Margin="10,35"
+                                HorizontalAlignment="Center"
+                                MouseLeftButtonUp="tabSettings_Click">
+                        <TabItem x:Name="itemControls"
+                                 Height="50"
+                                 Margin="0"
+                                 VerticalAlignment="Top"
+                                 HorizontalContentAlignment="Stretch"
+                                 VerticalContentAlignment="Stretch"
+                                 Padding="6,1">
+                            <TabItem.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image x:Name="iconKB"
+                                               Width="25"
+                                               Height="25"
+                                               Stretch="Fill" />
+                                        <TextBlock Margin="5,5,0,0" Text="Controles" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </TabItem.HeaderTemplate>
+                            <Grid>
+                                <DataGrid x:Name="dtControls"
+                                          Width="669"
+                                          Margin="10,10,0,10"
+                                          HorizontalAlignment="Left"
+                                          HorizontalScrollBarVisibility="Disabled"
+                                          x:FieldModifier="Public">
+                                    <!--
+                                        <DataGrid.Columns>
+                                        <DataGridTextColumn Width="335"
+                                        Binding="{x:Null}"
+                                        ClipboardContentBinding="{x:Null}"
+                                        Header="Acción"
+                                        IsReadOnly="True" />
+                                        <DataGridTextColumn Width="335"
+                                        Binding="{x:Null}"
+                                        ClipboardContentBinding="{x:Null}"
+                                        Header="Tecla/Botón"
+                                        IsReadOnly="True" />
+                                        </DataGrid.Columns>
+                                    -->
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                        <TabItem x:Name="itemMouse"
+                                 Height="50"
+                                 Margin="0"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Top"
+                                 HorizontalContentAlignment="Right">
+                            <TabItem.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image x:Name="iconMouse"
+                                               Width="25"
+                                               Height="25"
+                                               Stretch="Fill" />
+                                        <TextBlock Margin="5,5,0,0" Text="Ratón" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </TabItem.HeaderTemplate>
+                            <Grid Width="688">
+                                <Label x:Name="lblSens"
+                                       Height="25"
+                                       Margin="10,10,464,206"
+                                       Content="Sensibilidad:"
+                                       Padding="5" />
+                                <Slider x:Name="Sensibility"
+                                        Height="25"
+                                        Margin="10,0,354,176"
+                                        VerticalAlignment="Bottom"
+                                        Maximum="30"
+                                        Minimum="0.1"
+                                        ValueChanged="Sensibility_ValueChanged"
+                                        x:FieldModifier="Public" />
+                                <Slider x:Name="Sensibility_Copy"
+                                        Height="25"
+                                        Margin="353,40,10,176"
+                                        Maximum="30"
+                                        Minimum="0.1"
+                                        ValueChanged="Sensibility_ValueChanged"
+                                        Visibility="Hidden" />
+                                <CheckBox x:Name="InvertMouse"
+                                          Width="89"
+                                          Height="15"
+                                          Margin="10,70,0,0"
+                                          HorizontalAlignment="Left"
+                                          VerticalAlignment="Top"
+                                          Content="Invertir ratón"
+                                          x:FieldModifier="Public" />
+                            </Grid>
+                        </TabItem>
+                        <TabItem x:Name="itemAudio"
+                                 Height="50"
+                                 Margin="0"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Top"
+                                 HorizontalContentAlignment="Right">
+                            <TabItem.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image x:Name="iconAudio"
+                                               Width="25"
+                                               Height="25"
+                                               Stretch="Fill" />
+                                        <TextBlock Margin="5,5,0,0" Text="Audio" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </TabItem.HeaderTemplate>
+                            <Grid />
+                        </TabItem>
+                        <TabItem x:Name="itemVideo"
+                                 Height="50"
+                                 Margin="0"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Top"
+                                 HorizontalContentAlignment="Right">
+                            <TabItem.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image x:Name="iconVideo"
+                                               Width="25"
+                                               Height="25"
+                                               Stretch="Fill" />
+                                        <TextBlock Margin="5,5,0,0" Text="Video" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </TabItem.HeaderTemplate>
+                            <Grid Width="690">
+                                <!--
+                                    <GroupBox Width="703"
+                                    Height="108"
+                                    Margin="0,143,-13,-10"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    Header="Opciones de juego">
+                                    <Grid>
+                                -->
+                                <GroupBox Margin="10,130,354,45" Header="Resolución">
+                                    <Grid Margin="0,0,0,-1">
+                                        <Border x:Name="brdWidth"
+                                                Width="60"
+                                                Height="25"
+                                                Margin="10,12,0,0"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="Gray"
+                                                BorderBrush="Black"
+                                                BorderThickness="1"
+                                                CornerRadius="5"
+                                                Visibility="Hidden" />
+                                        <Border x:Name="brdHeight"
+                                                Width="60"
+                                                Height="25"
+                                                Margin="85,12,0,0"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="Gray"
+                                                BorderBrush="Black"
+                                                BorderThickness="1"
+                                                CornerRadius="5"
+                                                Visibility="Hidden" />
+                                        <TextBox x:Name="txtBoxW"
+                                                 Width="60"
+                                                 Height="25"
+                                                 Margin="10,12,0,0"
+                                                 HorizontalAlignment="Left"
+                                                 VerticalAlignment="Top"
+                                                 Background="{x:Null}"
+                                                 BorderBrush="{x:Null}"
+                                                 Foreground="Black"
+                                                 Text="Anchura"
+                                                 TextWrapping="Wrap"
+                                                 Visibility="Hidden" />
+                                        <TextBox x:Name="txtBoxH"
+                                                 Width="60"
+                                                 Height="25"
+                                                 Margin="85,12,0,0"
+                                                 HorizontalAlignment="Left"
+                                                 VerticalAlignment="Top"
+                                                 Background="{x:Null}"
+                                                 BorderBrush="{x:Null}"
+                                                 Text="Altura"
+                                                 TextWrapping="Wrap"
+                                                 Visibility="Hidden" />
+                                        <ComboBox x:Name="ComboBoxH"
+                                                  Width="60"
+                                                  Height="25"
+                                                  Margin="85,10,169,10"
+                                                  VerticalContentAlignment="Center"
+                                                  MouseDoubleClick="ComboResH_DClick"
+                                                  ToolTip="Haga doble clic para introducir un valor predeterminado"
+                                                  x:FieldModifier="Public">
+                                            <ComboBox.Background>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                    <GradientStop Offset="0" Color="White" />
+                                                    <GradientStop Offset="0.5" Color="Gray" />
+                                                    <GradientStop Offset="1" Color="White" />
+                                                </LinearGradientBrush>
+                                            </ComboBox.Background>
+                                            <System:Int32>2048</System:Int32>
+                                            <System:Int32>1600</System:Int32>
+                                            <System:Int32>1536</System:Int32>
+                                            <System:Int32>1200</System:Int32>
+                                            <System:Int32>1080</System:Int32>
+                                            <System:Int32>1050</System:Int32>
+                                            <System:Int32>1024</System:Int32>
+                                            <System:Int32>960</System:Int32>
+                                            <System:Int32>900</System:Int32>
+                                            <System:Int32>854</System:Int32>
+                                            <System:Int32>768</System:Int32>
+                                            <System:Int32>720</System:Int32>
+                                            <System:Int32>600</System:Int32>
+                                            <System:Int32>576</System:Int32>
+                                            <System:Int32>480</System:Int32>
+                                            <System:Int32>240</System:Int32>
+                                            <System:Int32>200</System:Int32>
+                                        </ComboBox>
+                                        <Label Width="15"
+                                               Margin="70,10,229,10"
+                                               HorizontalContentAlignment="Center"
+                                               VerticalContentAlignment="Center"
+                                               Content="x"
+                                               Padding="0" />
+                                        <ComboBox x:Name="ComboBoxW"
+                                                  Width="60"
+                                                  Height="25"
+                                                  Margin="10,10,244,10"
+                                                  VerticalContentAlignment="Center"
+                                                  MouseDoubleClick="ComboResW_DClick"
+                                                  ToolTip="Haga doble clic para introducir un valor predeterminado"
+                                                  x:FieldModifier="Public">
+                                            <ComboBox.Background>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                    <GradientStop Offset="0" Color="White" />
+                                                    <GradientStop Offset="0.5" Color="Gray" />
+                                                    <GradientStop Offset="1" Color="White" />
+                                                </LinearGradientBrush>
+                                            </ComboBox.Background>
+                                            <System:Int32>2560</System:Int32>
+                                            <System:Int32>2048</System:Int32>
+                                            <System:Int32>1920</System:Int32>
+                                            <System:Int32>1600</System:Int32>
+                                            <System:Int32>1400</System:Int32>
+                                            <System:Int32>1366</System:Int32>
+                                            <System:Int32>1280</System:Int32>
+                                            <System:Int32>1152</System:Int32>
+                                            <System:Int32>1024</System:Int32>
+                                            <System:Int32>854</System:Int32>
+                                            <System:Int32>800</System:Int32>
+                                            <System:Int32>768</System:Int32>
+                                            <System:Int32>640</System:Int32>
+                                            <System:Int32>320</System:Int32>
+                                        </ComboBox>
+                                    </Grid>
+                                </GroupBox>
+
+                                <CheckBox x:Name="chkFullScreen"
+                                          Width="113"
+                                          Height="16"
+                                          Margin="186,162,0,0"
+                                          HorizontalAlignment="Left"
+                                          VerticalAlignment="Top"
+                                          Content="Pantalla completa"
+                                          x:FieldModifier="Public" />
+
+                                <!--
+                                    </Grid>
+                                    </GroupBox>
+                                -->
+                                <Label x:Name="lblFOV"
+                                       Height="25"
+                                       Margin="10,10,464,206"
+                                       Content="FOV (Field Of View):"
+                                       Padding="5" />
+                                <Slider x:Name="FOV"
+                                        Height="25"
+                                        Margin="10,0,354,176"
+                                        VerticalAlignment="Bottom"
+                                        Maximum="120"
+                                        Minimum="60"
+                                        x:FieldModifier="Public" />
+                                <Label x:Name="lblBrightness"
+                                       Height="25"
+                                       Margin="353,10,121,206"
+                                       Content="Brillo:"
+                                       Padding="5" />
+                                <Label x:Name="lblRenderDistance"
+                                       Height="25"
+                                       Margin="10,70,464,146"
+                                       Content="Distancia de renderizado:"
+                                       Padding="5" />
+                                <Label x:Name="lblMaxFPS"
+                                       Height="25"
+                                       Margin="353,70,121,146"
+                                       Content="FPS Máximos:"
+                                       Padding="5" />
+                                <Slider x:Name="Brightness"
+                                        Width="327"
+                                        Height="25"
+                                        Margin="353,40,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Maximum="30"
+                                        Minimum="1"
+                                        x:FieldModifier="Public" />
+                                <Slider x:Name="MaxFPS"
+                                        Width="327"
+                                        Height="25"
+                                        Margin="353,100,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Maximum="200"
+                                        Minimum="5"
+                                        x:FieldModifier="Public" />
+                                <Slider x:Name="RenderDistance"
+                                        Width="326"
+                                        Height="25"
+                                        Margin="10,100,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Maximum="8000"
+                                        Minimum="100"
+                                        x:FieldModifier="Public" />
+                                <Label x:Name="lblQLvl" Width="327"
+                                       Height="25"
+                                       Margin="353,130,0,0"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Top"
+                                       Content="Nivel de calidad:" />
+                                <Slider x:Name="QualityLvl"
+                                        Width="327"
+                                        Height="26"
+                                        Margin="353,160,0,0"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Maximum="5" />
+                            </Grid>
+                        </TabItem>
+                        <TabItem x:Name="itemSettings"
+                                 Height="50"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Top">
+                            <TabItem.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image x:Name="iconSettings"
+                                               Width="25"
+                                               Height="25"
+                                               Stretch="Fill" />
+                                        <TextBlock Margin="5,5,0,0" Text="Otros" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </TabItem.HeaderTemplate>
+                            <Grid>
+                                <Label Width="72"
+                                       Height="30"
+                                       Margin="10,10,0,0"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Top"
+                                       VerticalContentAlignment="Center"
+                                       Content="Lenguaje:" />
+                                <ComboBox Margin="87,10,482,201">
+                                    <ComboBox.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Offset="0" Color="White" />
+                                            <GradientStop Offset="0.5" Color="Gray" />
+                                            <GradientStop Offset="1" Color="White" />
+                                        </LinearGradientBrush>
+                                    </ComboBox.Background>
+                                </ComboBox>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                    <Button x:Name="btnSaveProfile"
+                            Width="148"
+                            Height="25"
+                            Margin="285,343,284,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                            Click="Button_Click_3"
+                            Content="Guardar perfil">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0" Color="White" />
+                                <GradientStop Offset="0.5" Color="Gray" />
+                                <GradientStop Offset="1" Color="White" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="itemPreferencias"
+                     Height="21"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Header="Preferencias del Launcher">
+                <Grid x:Name="gridPLauncher" Background="White">
+                    <GroupBox Width="703"
+                              Height="68"
+                              Margin="10,10,0,0"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Header="Apariencia">
+                        <Grid>
+                            <Label Width="46"
+                                   Height="25"
+                                   Margin="10,10,0,0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   Content="Tema:" />
+                            <ComboBox Margin="61,10,463,11">
+                                <ComboBox.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Offset="0" Color="White" />
+                                        <GradientStop Offset="0.5" Color="Gray" />
+                                        <GradientStop Offset="1" Color="White" />
+                                    </LinearGradientBrush>
+                                </ComboBox.Background>
+                            </ComboBox>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Width="703"
+                              Height="68"
+                              Margin="10,83,0,0"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Header="Lenguaje">
+                        <Grid>
+                            <Label Width="72"
+                                   Height="25"
+                                   Margin="10,10,0,0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   Content="Lenguaje:" />
+                            <ComboBox Margin="87,10,437,11">
+                                <ComboBox.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Offset="0" Color="White" />
+                                        <GradientStop Offset="0.5" Color="Gray" />
+                                        <GradientStop Offset="1" Color="White" />
+                                    </LinearGradientBrush>
+                                </ComboBox.Background>
+                            </ComboBox>
+                        </Grid>
+                    </GroupBox>
+                    <!--
+                        <GroupBox Width="703"
+                        Height="108"
+                        Margin="10,151,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Header="Opciones de juego">
+                        <Grid>
+                        <Border x:Name="brdWidth"
+                        Width="74"
+                        Height="25"
+                        Margin="87,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Background="Gray"
+                        BorderBrush="Black"
+                        BorderThickness="1"
+                        CornerRadius="5"
+                        Visibility="Hidden" />
+                        <Border x:Name="brdHeight"
+                        Width="74"
+                        Height="25"
+                        Margin="176,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Background="Gray"
+                        BorderBrush="Black"
+                        BorderThickness="1"
+                        CornerRadius="5"
+                        Visibility="Hidden" />
+                        <TextBox x:Name="txtBoxW"
+                        Width="74"
+                        Height="25"
+                        Margin="87,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Background="{x:Null}"
+                        BorderBrush="{x:Null}"
+                        Foreground="Black"
+                        Text="Anchura"
+                        TextWrapping="Wrap"
+                        Visibility="Hidden" />
+                        <TextBox x:Name="txtBoxH"
+                        Width="74"
+                        Height="25"
+                        Margin="176,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Background="{x:Null}"
+                        BorderBrush="{x:Null}"
+                        Text="Altura"
+                        TextWrapping="Wrap"
+                        Visibility="Hidden" />
+                        <Label Margin="0,10,609,51" Content="Resolución:" />
+                        <ComboBox x:Name="ComboBoxH"
+                        Margin="176,10,441,51"
+                        VerticalContentAlignment="Center"
+                        MouseDoubleClick="ComboResH_DClick"
+                        ToolTip="Haga doble clic para introducir un valor predeterminado">
+                        <ComboBox.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0" Color="White" />
+                        <GradientStop Offset="0.5" Color="Gray" />
+                        <GradientStop Offset="1" Color="White" />
+                        </LinearGradientBrush>
+                        </ComboBox.Background>
+                        <System:Int32>2048</System:Int32>
+                        <System:Int32>1600</System:Int32>
+                        <System:Int32>1536</System:Int32>
+                        <System:Int32>1200</System:Int32>
+                        <System:Int32>1080</System:Int32>
+                        <System:Int32>1050</System:Int32>
+                        <System:Int32>1024</System:Int32>
+                        <System:Int32>960</System:Int32>
+                        <System:Int32>900</System:Int32>
+                        <System:Int32>854</System:Int32>
+                        <System:Int32>768</System:Int32>
+                        <System:Int32>720</System:Int32>
+                        <System:Int32>600</System:Int32>
+                        <System:Int32>576</System:Int32>
+                        <System:Int32>480</System:Int32>
+                        <System:Int32>240</System:Int32>
+                        <System:Int32>200</System:Int32>
+                        </ComboBox>
+                        <Label Margin="161,11,515,50"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Content="x"
+                        Padding="0" />
+                        <ComboBox x:Name="ComboBoxW"
+                        Margin="87,10,530,51"
+                        VerticalContentAlignment="Center"
+                        MouseDoubleClick="ComboResW_DClick"
+                        ToolTip="Haga doble clic para introducir un valor predeterminado">
+                        <ComboBox.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0" Color="White" />
+                        <GradientStop Offset="0.5" Color="Gray" />
+                        <GradientStop Offset="1" Color="White" />
+                        </LinearGradientBrush>
+                        </ComboBox.Background>
+                        <System:Int32>2560</System:Int32>
+                        <System:Int32>2048</System:Int32>
+                        <System:Int32>1920</System:Int32>
+                        <System:Int32>1600</System:Int32>
+                        <System:Int32>1400</System:Int32>
+                        <System:Int32>1366</System:Int32>
+                        <System:Int32>1280</System:Int32>
+                        <System:Int32>1152</System:Int32>
+                        <System:Int32>1024</System:Int32>
+                        <System:Int32>854</System:Int32>
+                        <System:Int32>800</System:Int32>
+                        <System:Int32>768</System:Int32>
+                        <System:Int32>640</System:Int32>
+                        <System:Int32>320</System:Int32>
+                        </ComboBox>
+                        <CheckBox x:Name="chkFullScreen"
+                        Width="113"
+                        Height="16"
+                        Margin="10,40,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Content="Pantalla completa" />
+                        </Grid>
+                        </GroupBox>
+                    -->
+                    <Button Width="175"
+                            Height="25"
+                            Margin="10,332,0,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                            Click="Button_Click_6"
+                            Content="Guardar preferencias">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0" Color="White" />
+                                <GradientStop Offset="0.5" Color="Gray" />
+                                <GradientStop Offset="1" Color="White" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="closeApp"
+                Width="24"
+                Height="24"
+                Margin="776,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                VerticalContentAlignment="Center"
+                Background="Black"
+                BorderBrush="Black"
+                BorderThickness="0,0,1,1"
+                Click="Button_Click_1"
+                Content="x"
+                FontSize="20"
+                FontWeight="Bold"
+                Foreground="#FF00DCFF"
+                Padding="2,-7,1,1" />
+        <Button x:Name="btnPlay"
+                Width="148"
+                Height="55"
+                Margin="332,477,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Button_Click_2"
+                Content="JUGAR"
+                FontSize="25"
+                FontWeight="ExtraBold"
+                Foreground="Black">
+            <Button.Background>
+                <LinearGradientBrush MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="0" Color="White" />
+                    <GradientStop Offset="0.5" Color="Gray" />
+                    <GradientStop Offset="1" Color="White" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <!--
+            - <ProgressBar Width="790"
+            Height="39"
+            Margin="10,561,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            BorderBrush="Black" Value="40">
+            <ProgressBar.Foreground>
+            <ImageBrush ImageSource="file:///C:/Users/Alvaro/Documents/GameLauncher WPF/GameLauncher WPF/imgs/progress_stripe.png" Stretch="UniformToFill" TileMode="Tile"/>
+            </ProgressBar.Foreground>
+            <ProgressBar.Background>
+            <RadialGradientBrush>
+            <GradientStop Offset="0" Color="#FF494949" />
+            <GradientStop Offset="0.506" Color="#FF5F5F5F" />
+            <GradientStop Offset="1" Color="#FF979797" />
+            </RadialGradientBrush>
+            </ProgressBar.Background>
+            </ProgressBar>
+        -->
+
+        <StackPanel Margin="10,552,23,42" Orientation="Horizontal">
+
+            <Image x:Name="animProgress"
+                   Width="25"
+                   Height="25"
+                   Margin="0"
+                   Visibility="Hidden" />
+
+            <Image x:Name="imgCompleted"
+                   Width="25"
+                   Height="25"
+                   Margin="-25,0,0,0"
+                   Visibility="Hidden" />
+
+            <Label x:Name="lblProgress"
+                   Width="759"
+                   Height="20"
+                   Margin="5,10,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Content="Progreso:"
+                   Foreground="White"
+                   Padding="5,0" />
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal">
+            <!--  All the progress bars will share one image, for performance purposes  -->
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush x:Name="img"
+                                Stretch="UniformToFill"
+                                TileMode="Tile"
+                                Viewport="0,0,10,10"
+                                ViewportUnits="Absolute" />
+                </Rectangle.Fill>
+            </Rectangle>
+            <ProgressBar x:Name="ProgressBar1"
+                         Width="790"
+                         Height="10"
+                         Margin="10,584,0,0"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Top"
+                         Background="#FF292929"
+                         BorderBrush="#FF838383"
+                         Foreground="{Binding ElementName=img}"
+                         IsHitTestVisible="True"
+                         IsIndeterminate="True"
+                         Uid="ProgressBar1"
+                         Value="100" />
+        </StackPanel>
+        <Image x:Name="Logo"
+               Width="249"
+               Height="39"
+               Margin="10,10,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top" />
+        <StackPanel x:Name="loginPanel"
+                    Height="83"
+                    Margin="485,469,61,75"
+                    Visibility="Hidden"
+                    x:FieldModifier="Public">
+            <Border Width="110"
+                    Height="20"
+                    Margin="129,1,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="Gray"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    CornerRadius="5" />
+            <Border Height="20"
+                    Margin="129,5,38,0"
+                    VerticalAlignment="Top"
+                    Background="Gray"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    CornerRadius="5" />
+            <Button x:Name="login"
+                    Width="154"
+                    Height="25"
+                    Margin="64,8,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Iniciar sesión">
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0" Color="White" />
+                        <GradientStop Offset="0.5" Color="Gray" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Label Width="82"
+                   Height="20"
+                   Margin="0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   VerticalContentAlignment="Center"
+                   Content="Contraseña:"
+                   Padding="5,0,5,5" />
+
+            <TextBox x:Name="user"
+                     Width="110"
+                     Height="20"
+                     Margin="129,-98,0,0"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Background="Transparent"
+                     BorderBrush="#00000000"
+                     SelectionBrush="#003399FF" />
+
+            <PasswordBox x:Name="pass"
+                         Width="110"
+                         Height="20"
+                         Margin="129,-73,0,0"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Top"
+                         Background="Transparent"
+                         BorderBrush="#00000000"
+                         SelectionBrush="#003399FF" />
+            <Label Height="25"
+                   Margin="29,-175,157,0"
+                   HorizontalContentAlignment="Center"
+                   Content="Usuario:" />
+
+            <Label Height="25"
+                   Margin="29,-125,157,0"
+                   HorizontalContentAlignment="Center"
+                   Content="Contraseña:" />
+
+        </StackPanel>
+        <StackPanel x:Name="loggedPanel"
+                    Width="277"
+                    Height="85"
+                    Margin="485,467,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Visibility="Hidden"
+                    x:FieldModifier="Public">
+            <Button x:Name="logout"
+                    Width="77"
+                    Height="25"
+                    Margin="10,40,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Salir">
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0" Color="White" />
+                        <GradientStop Offset="0.5" Color="Gray" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <RichTextBox x:Name="welcomeText"
+                         Width="277"
+                         Height="26"
+                         Margin="0,-80,0,0"
+                         HorizontalAlignment="Center"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Background="Transparent"
+                         Foreground="White"
+                         IsReadOnly="True"
+                         SelectionBrush="#003399FF">
+                <RichTextBox.BorderBrush>
+                    <LinearGradientBrush MappingMode="Absolute" StartPoint="0,0" EndPoint="0,20">
+                        <GradientStop Color="#00ABADB3" />
+                        <GradientStop Offset="1" Color="#00E2E3EA" />
+                    </LinearGradientBrush>
+                </RichTextBox.BorderBrush>
+                <FlowDocument>
+                    <Paragraph TextAlignment="Center">
+                        <Run Text="Bienvenido, " />
+                        <Run Text=" " />
+                        <Run x:Name="username"
+                             FontWeight="Bold"
+                             Text="xxx" />
+                        <Run Text=" " />
+                        <Run Text="!" />
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </StackPanel>
+
+    </Grid>
+</Window>

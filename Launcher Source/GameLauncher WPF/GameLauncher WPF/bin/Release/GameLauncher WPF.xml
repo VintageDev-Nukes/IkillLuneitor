@@ -1,0 +1,227 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GameLauncherWPF
+</name>
+</assembly>
+<members>
+<member name="M:GameLauncher_WPF.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:GameLauncher_WPF.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:GameLauncher_WPF.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:GameLauncher_WPF.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:GameLauncher_WPF.Application">
+	<summary>
+Application
+</summary>
+</member><member name="P:GameLauncher_WPF.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:GameLauncher_WPF.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:GameLauncher_WPF.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:GameLauncher_WPF.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:GameLauncher_WPF.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:GameLauncher_WPF.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GameLauncher_WPF.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GameLauncher_WPF.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GameLauncher_WPF.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:GameLauncher_WPF.INIFileManager.FilePath">
+	<summary>
+ Indicates the initialization file path.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.Content">
+	<summary>
+ Stores the initialization file content.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.SectionNames">
+	<summary>
+ Stores the INI section names.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.SectionStartIndex">
+	<summary>
+ Indicates the start element index of a section name.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.SectionEndIndex">
+	<summary>
+ Indicates the end element index of a section name.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.SortedSection">
+	<summary>
+ Stores a single sorted section block with their keys and values.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.SortedSections">
+	<summary>
+ Stores all the sorted section blocks with their keys and values.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.KeyIndex">
+	<summary>
+ Indicates the INI element index that contains the Key and value.
+ </summary>
+</member><member name="F:GameLauncher_WPF.INIFileManager.CompareMode">
+	<summary>
+ Indicates the culture to compare the strings.
+ </summary>
+</member><member name="T:GameLauncher_WPF.INIFileManager.SectionNameInvalidFormatException">
+	<summary>
+ Exception is thrown when a section name parameter has invalid format.
+ </summary>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Exist">
+	<summary>
+ Checks whether the initialization file exist.
+ </summary>
+	<returns>True if initialization file exist, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Create(System.Text.Encoding)">
+	<summary>
+ Creates the initialization file.
+ If the file already exist it would be replaced.
+ </summary>
+	<param name="Encoding">The Text encoding to write the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Delete">
+	<summary>
+ Deletes the initialization file.
+ </summary>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Get(System.Text.Encoding)">
+	<summary>
+ Returns the initialization file content.
+ </summary>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Sort(System.Boolean,System.Text.Encoding)">
+	<summary>
+ Sort the initialization file content by the Key names.
+ If the initialization file contains sections then the sections are sorted by their names also.
+ </summary>
+	<param name="RemoveEmptyLines">Remove empty lines.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.File.Write(System.Collections.Generic.List{System.String},System.Text.Encoding)">
+	<summary>
+ Writes a new initialization file with the specified text content..
+ </summary>
+	<param name="Content">Indicates the text content to write in the initialization file.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Key.Exist(System.String,System.String,System.Text.Encoding)">
+	<summary>
+ Return a value indicating whether a key name exist or not.
+ </summary>
+	<param name="KeyName">Indicates the key name that contains the value to modify.</param>
+	<param name="SectionName">Indicates the Section name where to find the key name.</param>
+	<param name="Encoding">The Text encoding to write the initialization file.</param>
+	<returns>True if the key name exist, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Key.Set(System.String,System.String,System.String,System.Text.Encoding)">
+	<summary>
+ Set the value of an existing key name.
+ 
+ If the initialization file doesn't exists, or else the Key doesn't exist,
+ or else the Section parameter is not specified and the key name doesn't exist;
+ then the 'key=value' is appended to the end of the initialization file.
+ 
+ if the specified Section name exist but the Key name doesn't exist,
+ then the 'key=value' is appended to the end of the Section.
+ 
+ </summary>
+	<param name="KeyName">Indicates the key name that contains the value to modify.</param>
+	<param name="Value">Indicates the new value.</param>
+	<param name="SectionName">Indicates the Section name where to find the key name.</param>
+	<param name="Encoding">The Text encoding to write the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Key.Get(System.String,System.Object,System.String,System.Text.Encoding)">
+	<summary>
+ Get the value of an existing key name.
+ If the initialization file or else the Key doesn't exist then a 'Nothing' object is returned. 
+ </summary>
+	<param name="KeyName">Indicates the key name to retrieve their value.</param>
+	<param name="DefaultValue">Indicates a default value to return if the key name is not found.</param>
+	<param name="SectionName">Indicates the Section name where to find the key name.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Key.GetIndex(System.String,System.String,System.Text.Encoding)">
+	<summary>
+ Returns the initialization file line index of the key name.
+ </summary>
+	<param name="KeyName">Indicates the Key name to retrieve their value.</param>
+	<param name="SectionName">Indicates the Section name where to find the key name.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Key.Remove(System.String,System.String,System.Text.Encoding)">
+	<summary>
+ Remove an existing key name.
+ </summary>
+	<param name="KeyName">Indicates the key name to retrieve their value.</param>
+	<param name="SectionName">Indicates the Section name where to find the key name.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Section.Add(System.String,System.Text.Encoding)">
+	<summary>
+ Adds a new section at bottom of the initialization file.
+ </summary>
+	<param name="SectionName">Indicates the Section name to add.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Section.Get(System.String,System.Text.Encoding)">
+	<summary>
+ Returns all the keys and values of an existing Section Name.
+ </summary>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<param name="SectionName">Indicates the section name where to retrieve their keynames and values.</param>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Section.GetNames(System.Text.Encoding)">
+	<summary>
+ Returns all the section names of the initialization file.
+ </summary>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Section.Has(System.Text.Encoding)">
+	<summary>
+ Gets a value indicating whether the initialization file contains at least one Section.
+ </summary>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the INI contains at least one section, otherwise False.</returns>
+</member><member name="M:GameLauncher_WPF.INIFileManager.Section.Remove(System.String,System.Text.Encoding)">
+	<summary>
+ Removes an existing section with all of it's keys and values.
+ </summary>
+	<param name="SectionName">Indicates the Section name to remove with all of it's key/values.</param>
+	<param name="Encoding">The Text encoding to read the initialization file.</param>
+	<returns>True if the operation success, otherwise False.</returns>
+</member>
+</members>
+</doc>

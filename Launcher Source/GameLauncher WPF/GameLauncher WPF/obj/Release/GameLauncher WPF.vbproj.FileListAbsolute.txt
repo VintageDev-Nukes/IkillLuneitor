@@ -1,0 +1,15 @@
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\MainWindow.baml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\MainWindow.g.vb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\Application.g.vb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF_MarkupCompile.cache
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF.g.resources
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher_WPF.Resources.resources
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF.vbproj.GenerateResource.Cache
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Release\GameLauncher WPF.exe.config
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Release\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Release\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Release\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF.exe
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF.xml
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\obj\Release\GameLauncher WPF.pdb
+C:\Users\Alvaro\Documents\GameLauncher WPF\GameLauncher WPF\bin\Release\WpfAnimatedGif.dll
